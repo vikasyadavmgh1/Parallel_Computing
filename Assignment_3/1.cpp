@@ -23,9 +23,7 @@ int main(int argc, char **argv)
         for (int i = 0; i < n; i++)
         {
              a[i]=urd(re);
-             printf("%f ",a[i]);
         } 
-        printf("\n");
     }
 
     auto start = high_resolution_clock::now();
@@ -58,7 +56,7 @@ int main(int argc, char **argv)
             MPI_Recv(&part_sum,1,MPI_DOUBLE,MPI_ANY_SOURCE,0,MPI_COMM_WORLD,MPI_STATUS_IGNORE);
             sum+=part_sum;
         }
-        printf("Array Sum:%f\n",sum);
+        printf("%f\n",sum);
     }
     else
     {
