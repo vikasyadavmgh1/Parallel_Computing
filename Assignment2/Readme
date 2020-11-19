@@ -1,1 +1,3 @@
-do.
+use g++ -std=c++11 1.cpp -pthread to compile
+use ./a.out n threshold to run.
+in the programm change the variable nt if you want to change the number of thread.
