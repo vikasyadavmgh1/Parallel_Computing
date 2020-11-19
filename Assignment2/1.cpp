@@ -160,13 +160,4 @@ int main(int argc, char **argv)
 
     cout<<"number of iterations="<<number_of_iterations<<endl;
     cout<<"time taken= "<<duration.count()  <<" microseconds"<<endl;
-    cout<<"final array:"<<endl;
-    for(int i=0;i<n;i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            cout<<original[i][j]<<" ";
-        }
-        cout<<endl;
-    }
 }
