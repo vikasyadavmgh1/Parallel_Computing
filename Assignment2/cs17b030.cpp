@@ -115,7 +115,7 @@ void example_random_number_generator(vector<vector<double>> &matrix)
 int main(int argc, char **argv)
 {
     int n=atoi(argv[1]), nt=4;
-    double threshold=atoi(argv[2]);   
+    double threshold=atof(argv[2]);   
 
     if(n<=16)
     {
